@@ -6,7 +6,7 @@
 		exit();
 	}
 
-    $page = 'players';
+    $page = 'houses';
 ?>
 <html lang="en">
 <head>
@@ -18,6 +18,7 @@
 
     <title>Nova Admin Panel</title>
 
+    <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
@@ -26,18 +27,13 @@
     <?php include("navbar.html");?>
 
     <div class="container">
+
         <div class="centered">
-            <h1>Players</h1>
-            <select class="selection" name="test" size="25">
-                <option>test1</option>
-                <option>test1</option>
-                <option>test1</option>
-                <option>test1</option>
-                <option>test1</option>
-                <option>test1</option>
-                <option>test1</option>
-            </select>
+            <h1>Houses</h1>
+            <p class="lead">adsfasdfasdf
+            </p>
         </div>
+
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
